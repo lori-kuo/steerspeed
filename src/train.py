@@ -36,7 +36,7 @@ parser = argparse.ArgumentParser(description='Training')
 parser.add_argument('--lr', default=None, type=float, help='learning rate')
 parser.add_argument('--bs', default=None, type=int, help='training batch size')
 parser.add_argument('--max_epoch', type=int, default=None)
-parser.add_argument('--data_root_dir', default=r"E:\steer_speed\steer_speed\data", type=str,
+parser.add_argument('--data_root_dir', default=r"/kaggle/input/steer-speed", type=str,
                     help="path to your dataset")
 args = parser.parse_args()
 
